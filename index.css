@@ -1,18 +1,16 @@
-* {
+html,
+body {
   margin: 0;
   padding: 0;
+  font-family: "Ubuntu", sans-serif;
+  background-image: linear-gradient(45deg, #32527b, #c0c0c0, #32527b);
+  background-image: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
-.main {
-  height: 100vh;
-  width: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.main .container .chart-holder {
-  position: absolute;
-  top: 5em;
-}
-.info {
-  font-size: 0.8em;
+
+h1,
+h2,
+h3 {
+  text-align: center;
 }
