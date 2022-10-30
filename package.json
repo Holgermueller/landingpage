@@ -1,0 +1,26 @@
+{
+  "name": "barchart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postcss:watch": "postcss index.css --dir public --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Holgermueller/barchart.git"
+  },
+  "author": "Holger Mueller",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Holgermueller/barchart/issues"
+  },
+  "homepage": "https://github.com/Holgermueller/barchart#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "cssnano": "^5.1.14",
+    "postcss": "^8.4.18",
+    "postcss-cli": "^10.0.0"
+  }
+}
